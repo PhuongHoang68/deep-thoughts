@@ -6,7 +6,6 @@ import {
   ApolloProvider,
   createHttpLink,
 } from '@apollo/client';
-
 import { setContext } from '@apollo/client/link/context';
 
 import Header from './components/Header';
@@ -32,7 +31,6 @@ const authLink = setContext((_, { headers }) => {
     },
   };
 });
-
 
 const client = new ApolloClient({
   link: authLink.concat(httpLink),

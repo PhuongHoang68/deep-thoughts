@@ -23,5 +23,8 @@
   "homepage": "https://github.com/PhuongHoang68/deep-thoughts#readme",
   "devDependencies": {
     "concurrently": "^7.6.0"
+  },
+  "dependencies": {
+    "moment": "^2.29.4"
   }
 }

@@ -79,7 +79,7 @@ const Profile = (props) => {
           />
         </div>
       </div>
-      <div className="mb-3">{!UserParam&& <ThoughtForm />}</div>
+      <div className="mb-3">{!userParam&& <ThoughtForm />}</div>
     </div>
   );
 };
